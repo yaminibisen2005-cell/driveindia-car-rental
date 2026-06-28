@@ -1,0 +1,15 @@
+.filter{
+    padding: 4px 24px;
+    display: flex;
+    align-items: anchor-center;
+    gap: 2px;
+}
+.container2{
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-sizing: content-box;
+}
+.button{
+    width: 100%;
+    box-sizing: border-box;
+}

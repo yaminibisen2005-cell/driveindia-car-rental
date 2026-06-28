@@ -1,9 +1,12 @@
-import AppRoutes from "./routes/AppRoutes";
-
-function App() {
+import React from 'react'
+import FilterPanel from './Components/FilterPanel'
+import Cars from './pages/Cars'
+import './App.css'
+export default function App() {
   return (
-  <AppRoutes />
+   <div className='bg-sky-50 h-full w-full'>
+    <Cars/>
+  
+   </div>
   )
 }
-
-export default App;

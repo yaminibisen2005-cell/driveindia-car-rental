@@ -1,0 +1,96 @@
+
+.main{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.carcard{
+    flex:1;
+    
+    gap:25px;
+    flex-wrap: wrap;
+display: flex;
+}
+
+
+.card {
+   
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+
+    width: 254px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+
+}
+
+
+.bottom-container {
+    border-bottom: 1px solid rgb(247, 244, 244);
+    height: 130px;
+}
+
+.shadow {
+    border-radius: 11px;
+
+    margin: 12px;
+}
+
+.shadow:hover {
+    box-shadow: 0 2px 2px 1px #b9b9e7;
+}
+
+.card:hover {
+    box-shadow: 0 0 2px 2px rgb(238, 234, 234);
+    transform: translateY(-5px);
+}
+
+.carcard img:hover {
+    width: 100%;
+
+    transform: scale(1.1);
+}
+
+.rating {
+    margin-left: 24px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 23px;
+    margin: 4px;
+}
+
+.border2 {
+    display: flex;
+    column-gap: 7px;
+
+
+}
+
+.location {
+    display: flex;
+    column-gap: 3px;
+}
+
+.manual {
+    column-gap: 13px;
+    font-size: 13px;
+
+}
+
+.viewbutton {
+    border-radius: 11px;
+    align-content: center;
+    margin: 12px;
+    font-size: 12px;
+    border: 1px solid rgb(188, 188, 243);
+}
+.imagae2{
+     width:100%;
+    height:177px;
+    overflow:hidden;
+}
