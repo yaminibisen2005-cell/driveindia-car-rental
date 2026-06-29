@@ -1,12 +1,9 @@
 import { Filter } from 'lucide-react'
 import React, { useState } from 'react'
 import './Filterpanel.css'
-import CarCard from './CarCard'
-export default function FilterPanel() {
-    const [category, setcategory] = useState('All')
-    const [fueltype, setfueltype] = useState('All')
-    const [transmission, settransmission] = useState('All')
-    const categories = ['All', 'Hatchback', 'Sedan', 'SUV', 'Luxury', 'Electric', 'MPV']
+// import CarCard from './CarCard'
+export default function FilterPanel({category, setcategory, fueltype, setfueltype, transmission, settransmission}) {
+   const categories = ['All', 'Hatchback', 'Sedan', 'SUV', 'Luxury', 'Electric', 'MPV']
     const fuel = ['All', 'Petrol', 'Diesel', 'Electric']
     const transmissions = ['All', 'Manual', 'Automatic']
     
