@@ -1,0 +1,93 @@
+export const cars = [
+  {
+    id: 1,
+    name: "Mahindra XUV700",
+    type: "SUV",
+    transmission: "Automatic",
+    fuel: "Diesel",
+    seats: 7,
+    ratePerKm: 22,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+    features: ["Sunroof", "GPS Navigation", "ADAS", "Ventilated Seats"],
+    description: "Experience premium comfort and advanced ADAS safety technology in the feature-loaded Mahindra XUV700, perfect for family road trips."
+  },
+  {
+    id: 2,
+    name: "Hyundai Creta",
+    type: "SUV",
+    transmission: "Automatic",
+    fuel: "Petrol",
+    seats: 5,
+    ratePerKm: 18,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800",
+    features: ["Panoramic Sunroof", "Wireless Charger", "Ventilated Seats", "ADAS"],
+    description: "The ultimate mid-size SUV. India's favorite Hyundai Creta offers a futuristic dashboard, massive sunroof, and high highway stability."
+  },
+  {
+    id: 3,
+    name: "Hyundai Verna",
+    type: "Sedan",
+    transmission: "Automatic",
+    fuel: "Petrol",
+    seats: 5,
+    ratePerKm: 15,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=800",
+    features: ["Bose Sound System", "Ambient Lighting", "ADAS", "Cruise Control"],
+    description: "The all-new Hyundai Verna stands out with its fastback styling, luxury cabin space, and responsive turbo petrol engine."
+  },
+  {
+    id: 4,
+    name: "Tata Nexon EV",
+    type: "Electric",
+    transmission: "Automatic",
+    fuel: "Electric",
+    seats: 5,
+    ratePerKm: 14,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=800",
+    features: ["Fast Charging", "Rear View Camera", "Regenerative Braking", "Harman Sound"],
+    description: "Eco-friendly, fast, and silent. Tata Nexon EV offers a smooth city ride with excellent range and modern tech enhancements."
+  },
+  {
+    id: 5,
+    name: "Maruti Suzuki Swift",
+    type: "Hatchback",
+    transmission: "Manual",
+    fuel: "Petrol",
+    seats: 5,
+    ratePerKm: 12,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800",
+    features: ["Bluetooth Connect", "Rear Parking Sensors", "Keyless Entry", "High Mileage"],
+    description: "Affordable, nimble, and highly efficient. Swift is the perfect hatchback for navigating heavy city traffic and tight spaces."
+  },
+  {
+    id: 6,
+    name: "Toyota Fortuner",
+    type: "SUV",
+    transmission: "Automatic",
+    fuel: "Diesel",
+    seats: 7,
+    ratePerKm: 35,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+    features: ["4x4 Drive Mode", "Leather Seats", "Hill Assist Control", "Power Tailgate"],
+    description: "The king of roads. Take on any terrain with style and ultimate road presence in the powerful, robust Toyota Fortuner."
+  },
+  {
+    id: 7,
+    name: "Mercedes-Benz C-Class",
+    type: "Luxury",
+    transmission: "Automatic",
+    fuel: "Petrol",
+    seats: 5,
+    ratePerKm: 75,
+    rating: 5.0,
+    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=800",
+    features: ["Panoramic Roof", "Ambient Lighting", "Burmester Sound", "Air Suspension"],
+    description: "Drive in luxury. The C-class blends state-of-the-art tech with absolute driving luxury and styling elegance."
+  }
+];
