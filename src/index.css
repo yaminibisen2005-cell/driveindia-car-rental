@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #38BDF8;
+  --color-secondary: #2563EB;
+  --color-accent: #F97316;
+  --color-heading: #0F172A;
+  --color-body-text: #475569;
+  --color-bg-base: #F8FAFC;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg-base);
+  color: var(--color-body-text);
+  overflow-x: hidden;
+}
+
+/* --- Premium Animations & Transitions System --- */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(37, 99, 235, 0.45);
+  }
+}
+
+@keyframes bounceTick {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* CSS Classes for Animation Utilities */
+
+.animate-fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+.animate-bounce-tick {
+  animation: bounceTick 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Animation Delay Classes */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Micro-interaction & Hover Transitions */
+.card-hover-effect {
+  transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.btn-hover-effect {
+  transition: all 0.25s ease-in-out;
+}
+.btn-hover-effect:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+}
